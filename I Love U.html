@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://xekep.github.io/test.site1/ -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta http-equiv="refresh" content="40;URL=https://vk.com/id299571826">
+		<title>I Love U</title>
+		<meta name="description" content="I Love U">
+		<meta name="author" content="Xekep">
+		<link rel="stylesheet" href="./I Love U_files/style.css">
+	</head>
+<body>
+<audio id="music" src="Na_zemle.ogg" autoplay="" ontimeupdate="updateTrackTime(this);"></audio>
+<script>
+	myAudio = document.getElementById("music");
+	myAudio.volume = 0.7;
+	function updateTrackTime(track){
+		var currTime = Math.floor(track.currentTime);
+
+		if (currTime==36) {
+			myAudio.volume = 0.6;
+		} else if (currTime==37) {
+			myAudio.volume = 0.4;
+		} else if (currTime==38) {
+			myAudio.volume = 0.2;
+		} else if (currTime==39) {
+			myAudio.volume = 0.0;
+		}
+		return;
+	}
+</script>
+<script src="./I Love U_files/main.js"></script>
+<canvas id="heart" width="1366" height="651"></canvas>
+<div class="container">
+    <div class="header">
+        <div class="clr"></div>
+    </div>
+    <div class="sp-container">
+        <div class="sp-content">
+            <div class="sp-globe"></div>
+
+            	<h2 class="frame-1">test123</h2>
+
+            	<h2 class="frame-2">1</h2>
+
+            	<h2 class="frame-3">2</h2>
+
+            	<h2 class="frame-4">3</h2>
+
+            	<h2 class="frame-5"><span>1</span> <span>2</span> <span>3.</span></h2>
+
+        </div>
+    </div>
+</div>
+
+</body></html>
